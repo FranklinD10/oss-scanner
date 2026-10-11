@@ -1,0 +1,20 @@
+# Enrollment for FranklinD10/ellin-goals in anthropics/oss-scanner.
+# Copy this file to projects/ellin-goals/project.yaml in the enrollment PR,
+# and copy Dockerfile + threat_model.md next to it.
+
+# REQUIRED. The ONE git repository to scan, as an https:// URL.
+repo: https://github.com/FranklinD10/ellin-goals#main
+
+# REQUIRED. Who should we email our reports to, and use as the primary contact for questions.
+primary_contact: info@frapps.tech
+
+# Optional. The project's home page.
+homepage: https://goals.frapps.tech
+
+# Optional. true pauses reports without removing the enrolment; false (or omitting it) enables your project.
+disabled: false
+
+# Dockerfile lives next to this file as projects/ellin-goals/Dockerfile,
+# so the `dockerfile:` path line from the template is intentionally omitted.
+# Threat model lives next to this file as projects/ellin-goals/threat_model.md,
+# so the `threat_model:` path line from the template is intentionally omitted.
