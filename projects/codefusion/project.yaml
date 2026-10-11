@@ -1,0 +1,17 @@
+# Enrollment for FranklinD10/CodeFusion in anthropics/oss-scanner.
+# Copy this file to projects/CodeFusion/project.yaml in the enrollment PR,
+# and copy Dockerfile + threat_model.md next to it.
+
+# REQUIRED. The ONE git repository to scan, as an https:// URL.
+repo: https://github.com/FranklinD10/CodeFusion#FrApps
+
+# REQUIRED. Who should we email our reports to, and use as the primary contact for questions.
+primary_contact: info@frapps.tech
+
+# Optional. true pauses reports without removing the enrolment; false (or omitting it) enables your project.
+disabled: false
+
+# Dockerfile lives next to this file as projects/CodeFusion/Dockerfile,
+# so the `dockerfile:` path line from the template is intentionally omitted.
+# Threat model lives next to this file as projects/CodeFusion/threat_model.md,
+# so the `threat_model:` path line from the template is intentionally omitted.
